@@ -1,0 +1,25 @@
+# 机器人全局配置
+general:
+  welcome_message: "欢迎 {user} 加入群组！请遵守群规，文明交流。"
+  welcome_enabled: true
+
+# 签到系统配置
+check_in:
+  base_points: 10
+  streak_bonus: 5
+  max_streak: 7
+
+# 管理员功能配置
+admin:
+  allow_kick: true
+  allow_ban: true
+  allow_mute: true
+
+# 自动回复配置
+auto_reply:
+  enabled: true
+  replies:
+    - pattern: "你好"
+      response: "你好呀！有什么可以帮助你的吗？"
+    - pattern: "再见"
+      response: "再见！欢迎下次再来~"
